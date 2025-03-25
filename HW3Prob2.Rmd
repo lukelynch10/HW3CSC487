@@ -16,6 +16,7 @@ When you click the **Knit** button a document will be generated that includes bo
 
 ## function for min max normalization
 
-foo <- function(a,min_new, max_new){
+foo <- function(a,min_new, max_new)
   return ((a - min(a) / (max(a) - min(a)) * (max_new - min_new) + min_new)
-}
+
+
